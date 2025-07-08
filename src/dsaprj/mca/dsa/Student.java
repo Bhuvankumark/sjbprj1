@@ -3,7 +3,11 @@ package dsaprj.mca.dsa;
 public class Student {
 
 	public static void main(String[] args) {
-      System.out.println("Hii");
+		Product p1 = new Product(100, "Destop",12000);
+		Product p2 = new Product(100, "Destop",12000);
+		System.out.println(p1);
+		System.out.println(p2);
+		System.out.println(p1.hashCode());
+		System.out.println(p2.hashCode());
 	}
-
 }
